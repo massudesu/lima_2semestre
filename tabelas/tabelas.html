@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!-- Tabelas em html -->
+     <h1>Trabalhando com tabelas</h1>
+    <h2>Tabela de alunos</h2>
+     <table border="1">
+        <!-- CABEÇALHO -->
+         <Thead>
+            <!-- Linha da tabela -->
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>CPF</th>
+                <th>E-mail</th>
+            </tr>
+         </Thead>
+         <!-- Corpo -->
+         <tbody>
+            <tr>
+                <td>Matheus</td>
+                <td>27</td>
+                <td>181.818.181.12</td>
+                <td>nicolasmassuda@gmail.com</td>
+            </tr>
+            <tr>
+                <td>nicolas</td>
+                <td>18</td>
+                <td>001.002.003-44</td>
+                <td>nicolas@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>90</td>
+                <td>912.124.143-55</td>
+                <td>paulo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Gruiherme</td>
+                <td>80</td>
+                <td>987.654.321-01</td>
+                <td>guilherme@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Vitor</td>
+                <td>34</td>
+                <td>521.287.989-74</td>
+                <td>vitoralencar71@yahoo.com</td>
+            </tr>
+
+         </tbody>
+    
+    </table>
+
+    <!-- MESCLANDO COLUNAS -->
+     <h2>Tabela de filmes</h2>
+    <table border="1">
+        
+        <thead>
+            <tr>
+                <th colspan="4">Lista de filmes</th>
+            </tr>
+            <tr>
+                <th>Gênero</th>
+                <th>Ano</th>
+                <th>Título</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2">Ação</td>
+                <td>2019</td>
+                <td>Vingadores Ultimato</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2026</td>
+                <td>John Wick</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Comedia</td>
+                <td>2005</td>
+                <td>American Pie</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2007</td>
+                <td>Super bad</td>
+                <td>7.6</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>
