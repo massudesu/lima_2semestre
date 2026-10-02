@@ -1,0 +1,40 @@
+h1{
+    /* font-size: 50px;  */
+    /* font-size: 5em;    SEMPRE *16 */
+    /* font-size: 10vw; responsivel */
+    /* font-family: ; familia da font */
+    /* font-weight: 100; espessura da letra   */
+    /* line-height: 1px;  distancia das palavras do mesmo texto, a altura */
+    /* letter-spacing: 10;   */
+    /* color: teal; */
+
+    font-size: 15vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2px;
+}
+
+h2{
+    font-size: 10vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000px;
+}
+
+h3{
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    font-size: 3vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 6px;
+}
+
+h5{
+    font-size: 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h6{
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

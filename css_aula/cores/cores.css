@@ -1,0 +1,15 @@
+.cor1{
+    color: aqua;
+}
+
+.cor2{
+    color: #ff0000;
+}
+
+.cor3{
+    color: rgb(0, 255, 0)
+}
+
+.cor4{
+    color:  rgba(0, 255, 0, 0.1);
+}

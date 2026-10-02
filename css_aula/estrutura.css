@@ -23,6 +23,19 @@ seletor{
     propriedade: valor;
 } */
 
-p{
+/* p{
     color: teal;    
+} */
+
+p{
+    color: teal;
 }
+
+.time-azul{
+    color: black;
+}
+
+.titulo1{
+    color: brown;
+}
+

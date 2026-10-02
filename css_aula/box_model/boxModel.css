@@ -1,0 +1,17 @@
+
+.butt{
+    background-color: teal;
+    padding: 1px 10px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    margin: 5px;
+    
+}
+
+.btn{
+    background-color: teal;
+    padding: 1px 10px;
+    border: 1px dotted #fff;
+    border-radius: 12px;
+    margin: 5px;
+}
